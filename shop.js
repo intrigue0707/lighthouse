@@ -128,6 +128,7 @@ async function captureReport(){
 	//================================REPORTING================================
 	const reportPath = __dirname + '/user-flow.report.html';
 	//const reportPathJson = __dirname + '/user-flow.report.json';
+	const reportPath1 = __dirname + '/user-flow.report.xml';
 
 	const report = await flow.generateReport();
 	//const reportJson = JSON.stringify(flow.getFlowResult()).replace(/</g, '\\u003c').replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
